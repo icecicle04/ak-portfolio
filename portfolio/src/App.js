@@ -1,6 +1,7 @@
 import "./App.css";
 import { Layout, Header, Navigation, Drawer, Content } from "react-mdl";
 import Main from "./components/main";
+import { Link } from "react-router-dom";
 
 function App() {
   return (
@@ -10,24 +11,26 @@ function App() {
           <Header
             title={
               <span>
-                <span style={{ color: "#ddd" }}>Area / </span>
-                <strong>The Title</strong>
+                <span style={{ color: "#ddd" }}>Ali Khan's</span>
+                <strong> Portfolio</strong>
               </span>
             }
           >
             <Navigation>
-              <a href="/">Link</a>
-              <a href="/">Link</a>
-              <a href="/">Link</a>
-              <a href="/">Link</a>
+              <Link href="/">Home</Link>
+              <Link href="/about">About Me</Link>
+              <Link href="/contact">Contact</Link>
+              <Link href="/projects">Projects</Link>
+              <Link href="/resume">Resume</Link>
             </Navigation>
           </Header>
           <Drawer title="Title">
             <Navigation>
-              <a href="/">Link</a>
-              <a href="/">Link</a>
-              <a href="/">Link</a>
-              <a href="/">Link</a>
+              <Link href="/">Home</Link>
+              <Link href="/about">About Me</Link>
+              <Link href="/contact">Contact</Link>
+              <Link href="/projects">Projects</Link>
+              <Link href="/resume">Resume</Link>
             </Navigation>
           </Drawer>
           <Content>
