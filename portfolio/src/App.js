@@ -1,7 +1,7 @@
 import "./App.css";
 import { Layout, Header, Navigation, Drawer, Content } from "react-mdl";
 import Main from "./components/main";
-import { Link } from "react-router-dom";
+// import { Link } from "react-router-dom";
 
 function App() {
   return (
@@ -17,20 +17,20 @@ function App() {
             }
           >
             <Navigation>
-              <Link href="/">Home</Link>
-              <Link href="/about">About Me</Link>
-              <Link href="/contact">Contact</Link>
-              <Link href="/projects">Projects</Link>
-              <Link href="/resume">Resume</Link>
+              <a href="/">Home</a>
+              <a href="/about">About Me</a>
+              <a href="/contact">Contact</a>
+              <a href="/projects">Projects</a>
+              <a href="/resume">Resume</a>
             </Navigation>
           </Header>
           <Drawer title="Title">
             <Navigation>
-              <Link href="/">Home</Link>
-              <Link href="/about">About Me</Link>
-              <Link href="/contact">Contact</Link>
-              <Link href="/projects">Projects</Link>
-              <Link href="/resume">Resume</Link>
+              <a href="/">Home</a>
+              <a href="/about">About Me</a>
+              <a href="/contact">Contact</a>
+              <a href="/projects">Projects</a>
+              <a href="/resume">Resume</a>
             </Navigation>
           </Drawer>
           <Content>
