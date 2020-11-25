@@ -1,6 +1,6 @@
 import { Component } from "react";
 import React from "react";
-import { Grid, Cell } from "react-mdl";
+import { Grid, Cell, Card } from "react-mdl";
 import family2 from "../assets/images/family2.jpg";
 
 class Landing extends Component {
@@ -45,9 +45,9 @@ class Landing extends Component {
               </div>
             </div>
           </Cell>
-          <Cell className="image" col={6}>
-            <img src={family2} alt="me" className="personal-image" />
-          </Cell>
+          <Card col={6} shadow={6} style={{ width: "500px", margin: "auto" }}>
+            <img src={family2} alt="me" className="profileImage" />
+          </Card>
         </Grid>
       </div>
     );

@@ -175,3 +175,9 @@
   background: #27221f;
   color: white;
 }
+
+.profileImage {
+  width: 500px;
+  height: 400px;
+  /* position: relative; */
+}
