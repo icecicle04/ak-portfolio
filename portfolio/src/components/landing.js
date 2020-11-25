@@ -41,7 +41,7 @@ class Landing extends Component {
                   target="_blank"
                   rel="nooperner noreferrer"
                 >
-                  <i className="fas fa-envelope-square" aria-hidden="true"></i>
+                  <i className="fa fa-envelope-square" aria-hidden="true"></i>
                 </a>
               </div>
             </div>

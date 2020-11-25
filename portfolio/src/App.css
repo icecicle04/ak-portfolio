@@ -79,3 +79,50 @@
   font-size: 5em;
   padding: 8px;
 }
+
+.verdantLogo {
+  height: 110px;
+  width: 200px;
+  margin-left: 400px;
+}
+
+.verdant {
+  height: 200px;
+  width: 500px;
+}
+
+.verdantHome {
+  height: 600px;
+  width: 1000px;
+}
+
+.bookishHome {
+  height: 510px;
+  width: 1000px;
+}
+
+.bookish {
+  height: 125px;
+  width: 500px;
+}
+
+.dinnerHome {
+  height: 550px;
+  width: 1000px;
+}
+
+.dinner {
+  height: 200px;
+  width: 500px;
+}
+
+.projectButton {
+  padding: 1em;
+  margin: auto;
+  justify-self: center;
+  color: black;
+}
+
+.projects-grid {
+  display: flex;
+}
