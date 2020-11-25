@@ -8,8 +8,7 @@ class Landing extends Component {
     return (
       <div style={{ width: "100%", margin: "auto" }}>
         <Grid className="landingGrid">
-          <Cell className="image" col={12}>
-            <img src={family2} alt="me" className="personal-image" />
+          <Cell className="socialTwo" col={6}>
             <div className="banner-text">
               <h1>Full Stack Web Developer</h1>
               <hr />
@@ -45,6 +44,9 @@ class Landing extends Component {
                 </a>
               </div>
             </div>
+          </Cell>
+          <Cell className="image" col={6}>
+            <img src={family2} alt="me" className="personal-image" />
           </Cell>
         </Grid>
       </div>
