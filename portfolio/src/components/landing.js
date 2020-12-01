@@ -20,6 +20,8 @@ class Landing extends Component {
                 HTML/CSS | React | Javascript | Bootstrap | React Native |
                 MongoDB | NodeJS | Express{" "}
               </p>
+              <hr />
+
               <div className="social-links">
                 {/* linkedIn */}
                 <a

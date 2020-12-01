@@ -1,7 +1,7 @@
 // import { Component } from "react";
 import React, { Component } from "react";
 import { Grid, Cell, List, ListItem, ListItemContent, Button } from "react-mdl";
-import suit from "../assets/images/suit.jpg";
+import sideMe from "../assets/images/sideMe.png";
 
 class Contact extends Component {
   render() {
@@ -10,7 +10,7 @@ class Contact extends Component {
         <Grid className="contact-grid">
           <Cell col={6}>
             <h2>Ali Khan Mohamed</h2>
-            <img src={suit} alt="avatar" style={{ height: "250px" }} />
+            <img src={sideMe} alt="avatar" style={{ height: "250px" }} />
             <p style={{ width: "75%", margin: "auto", paddingTop: "1em" }}>
               My name is Ali and I am currently a full stack web developer
               looking to leverage my prior analyst and financial experience to
