@@ -1,7 +1,7 @@
 // import { Component } from "react";
 import React, { Component } from "react";
-import { Grid, Cell, List, ListItem, ListItemContent } from "react-mdl";
-import family2 from "../assets/images/family2.jpg";
+import { Grid, Cell, List, ListItem, ListItemContent, Button } from "react-mdl";
+import suit from "../assets/images/suit.jpg";
 
 class Contact extends Component {
   render() {
@@ -10,7 +10,7 @@ class Contact extends Component {
         <Grid className="contact-grid">
           <Cell col={6}>
             <h2>Ali Khan Mohamed</h2>
-            <img src={family2} alt="avatar" style={{ height: "250px" }} />
+            <img src={suit} alt="avatar" style={{ height: "250px" }} />
             <p style={{ width: "75%", margin: "auto", paddingTop: "1em" }}>
               My name is Ali and I am currently a full stack web developer
               looking to leverage my prior analyst and financial experience to
@@ -25,19 +25,28 @@ class Contact extends Component {
             <div className="contact-list">
               <List>
                 <ListItem>
-                  <ListItemContent
-                    style={{ fontSize: "30px", fontFamily: "Anton" }}
-                  >
+                  <ListItemContent style={{ fontSize: "30px" }}>
                     <i className="fa fa-phone-square" aria-hidden="true" />
                     (404) 933-7270
                   </ListItemContent>
                 </ListItem>
                 <ListItem>
-                  <ListItemContent
-                    style={{ fontSize: "30px", fontFamily: "Anton" }}
-                  >
+                  <ListItemContent style={{ fontSize: "30px" }}>
                     <i className="fa fa-envelope" aria-hidden="true" />
                     Ali.Khan4990@gmail.com
+                  </ListItemContent>
+                </ListItem>
+                <ListItem>
+                  <ListItemContent style={{ fontSize: "30px" }}>
+                    <a
+                      href="https://www.linkedin.com/in/alikhan04/"
+                      target="_blank"
+                      rel="nooperner noreferrer"
+                      style={{ color: "#004e92" }}
+                    >
+                      <i className="fa fa-linkedin-square" aria-hidden="true" />{" "}
+                      LinkedIn
+                    </a>
                   </ListItemContent>
                 </ListItem>
               </List>

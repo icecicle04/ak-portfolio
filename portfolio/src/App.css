@@ -13,6 +13,7 @@
 }
 
 .landingGrid {
+  display: flex;
   background: #000428; /* fallback for old browsers */
   background: -webkit-linear-gradient(
     to right,
@@ -44,7 +45,8 @@
 .banner-text {
   background-color: black;
   opacity: 0.8;
-  width: 75%;
+  width: auto;
+  height: auto;
   margin: auto;
   border-radius: 10px;
 }
@@ -150,12 +152,7 @@
   margin-bottom: 20px;
 }
 
-.contact-grid h2 {
-  font-family: "Anton", sans-serif;
-}
-
 .contact-grid p {
-  font-family: "Oxygen", sans-serif;
   font-weight: bold;
 }
 
@@ -170,14 +167,28 @@
   padding-right: 5rem;
 }
 
+.contact-button {
+  font-size: 60px;
+  padding-right: 5rem;
+}
+
 /* Resume Page CSS */
 .resume-right-col {
   background: #27221f;
   color: white;
+  padding: 2em;
 }
 
 .profileImage {
   width: 500px;
   height: 400px;
   /* position: relative; */
+}
+
+.carouselCell {
+  display: flex;
+}
+
+.carouselCaption {
+  text-shadow: 0 0 3px #010102, 0 0 5px #020203;
 }
