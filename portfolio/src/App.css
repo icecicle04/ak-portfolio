@@ -46,7 +46,7 @@
   background-color: black;
   opacity: 0.8;
   width: auto;
-  height: auto;
+  height: 100%;
   margin: auto;
   border-radius: 10px;
 }
@@ -66,7 +66,7 @@
 .banner-text p {
   color: white;
   font-size: 20px;
-  padding: 1em;
+  padding: 1.5em;
 }
 
 .social-links {
@@ -74,6 +74,8 @@
   justify-content: space-between;
   width: 50%;
   margin: auto;
+  padding-right: 1.5em;
+  padding-top: 1.5em;
 }
 
 .socialTwo {

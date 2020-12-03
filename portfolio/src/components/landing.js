@@ -9,7 +9,7 @@ import Carousel from "react-bootstrap/Carousel";
 class Landing extends Component {
   render() {
     return (
-      <div style={{ width: "100%", margin: "auto" }}>
+      <div style={{ width: "auto", margin: "auto" }}>
         <Grid className="landingGrid">
           <Cell className="socialTwo" col={4}>
             <div className="banner-text">
@@ -19,11 +19,10 @@ class Landing extends Component {
               <hr />
               <p>
                 {" "}
-                HTML/CSS | React | Javascript | Bootstrap | React Native |
-                MongoDB | NodeJS | Express{" "}
+                HTML/CSS | React | Javascript | M.E.R.N. | Bootstrap | React
+                Native | MongoDB | NodeJS | Express{" "}
               </p>
               <hr />
-
               <div className="social-links">
                 {/* linkedIn */}
                 <a
