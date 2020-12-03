@@ -140,6 +140,7 @@
   height: 100%;
   justify-content: center;
   padding-top: 2em;
+  color: white;
 }
 
 .contact-grid {
@@ -147,17 +148,17 @@
   justify-content: center;
   width: 80%;
   height: 550px;
-  background: white;
-  color: black;
-  margin-bottom: 20px;
+  background: #000428;
+  color: white;
 }
 
 .contact-grid p {
   font-weight: bold;
+  color: white;
 }
 
 .contact-grid hr {
-  border-top: 5px dotted black;
+  border-top: 5px dotted white;
   width: 50%;
   margin: auto;
 }
@@ -165,11 +166,13 @@
 .contact-list i {
   font-size: 60px;
   padding-right: 5rem;
+  color: white;
 }
 
 .contact-button {
   font-size: 60px;
   padding-right: 5rem;
+  color: white;
 }
 
 /* Resume Page CSS */

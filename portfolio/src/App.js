@@ -14,7 +14,6 @@ function App() {
           title={
             <Link style={{ textDecoration: "none", color: "white" }} to="/">
               <span>
-                <span style={{ color: "#ddd" }}>Ali Khan's</span>
                 <strong> Portfolio</strong>
               </span>
             </Link>

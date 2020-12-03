@@ -1,8 +1,8 @@
 import { Component } from "react";
 import React from "react";
-import { Grid, Cell, Card } from "react-mdl";
+import { Grid, Cell } from "react-mdl";
 import family2 from "../assets/images/family2.jpg";
-import sideMe from "../assets/images/sideMe.png";
+// import sideMe from "../assets/images/sideMe.png";
 import suit from "../assets/images/suit.jpg";
 import Carousel from "react-bootstrap/Carousel";
 
@@ -13,7 +13,9 @@ class Landing extends Component {
         <Grid className="landingGrid">
           <Cell className="socialTwo" col={4}>
             <div className="banner-text">
-              <h1>Full Stack Web Developer</h1>
+              <h1>Hi! I'm Ali</h1>
+              <hr />
+              <p>Full Stack Web Developer</p>
               <hr />
               <p>
                 {" "}
@@ -62,21 +64,18 @@ class Landing extends Component {
             <Carousel>
               <Carousel.Item interval={2000}>
                 <img className="d-block w-100" src={suit} alt="First slide" />
-                <Carousel.Caption>
+                {/* <Carousel.Caption>
                   <h1
                     className="carouselCaption"
                     style={{
-                      textAlign: "left",
+                      textAlign: "top",
                       fontSize: "55px",
                       color: "white",
                     }}
                   >
                     Hi! I'm Ali
                   </h1>
-                </Carousel.Caption>
-              </Carousel.Item>
-              <Carousel.Item interval={2000}>
-                <img className="d-block w-50" src={sideMe} alt="Third slide" />
+                </Carousel.Caption> */}
               </Carousel.Item>
               <Carousel.Item>
                 <img
